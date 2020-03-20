@@ -3,67 +3,61 @@
   <!-- ============================= Permits from royal titles ============================= -->
   <RoyalTitlePermitDef>
     <defName>CallFoodAidSmall</defName>
-    <label>call aid for simple meal x10</label>
+    <label>call aid for simple meal</label>
     <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallFoodAid</workerClass>
     <royalAid>
       <favorCost>2</favorCost>
       <pawnCount>10</pawnCount>
-      <points>10</points>
     </royalAid>
-    <cooldownDays>30</cooldownDays>
+    <cooldownDays>20</cooldownDays>
   </RoyalTitlePermitDef>
   <RoyalTitlePermitDef>
     <defName>CallFoodAidLarge</defName>
-    <label>call aid for fine meal x20</label>
+    <label>call aid for fine meal</label>
+    <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallFoodAid</workerClass>
+    <royalAid>
+      <favorCost>5</favorCost>
+      <pawnCount>20</pawnCount>
+    </royalAid>
+    <cooldownDays>40</cooldownDays>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>CallFoodAidGrand</defName>
+    <label>call aid for lavish meal</label>
     <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallFoodAid</workerClass>
     <royalAid>
       <favorCost>10</favorCost>
-      <pawnCount>20</pawnCount>
-      <points>20</points>
+      <pawnCount>30</pawnCount>
     </royalAid>
     <cooldownDays>60</cooldownDays>
   </RoyalTitlePermitDef>
   <RoyalTitlePermitDef>
-    <defName>CallFoodAidGrand</defName>
-    <label>call aid for lavish meal x30</label>
-    <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallFoodAid</workerClass>
-    <royalAid>
-      <favorCost>20</favorCost>
-      <pawnCount>30</pawnCount>
-      <points>30</points>
-    </royalAid>
-    <cooldownDays>90</cooldownDays>
-  </RoyalTitlePermitDef>
-  <RoyalTitlePermitDef>
     <defName>CallMedicalAidSmall</defName>
-    <label>call aid for herbal medicine x10</label>
+    <label>call aid for herbal medicine</label>
     <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallMedicineAid</workerClass>
     <royalAid>
-      <favorCost>2</favorCost>
+      <favorCost>5</favorCost>
       <pawnCount>10</pawnCount>
-      <points>10</points>
     </royalAid>
     <cooldownDays>30</cooldownDays>
   </RoyalTitlePermitDef>
   <RoyalTitlePermitDef>
     <defName>CallMedicalAidLarge</defName>
-    <label>call aid for medicine x20</label>
+    <label>call aid for medicine</label>
     <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallMedicineAid</workerClass>
     <royalAid>
       <favorCost>10</favorCost>
       <pawnCount>20</pawnCount>
-      <points>20</points>
     </royalAid>
     <cooldownDays>60</cooldownDays>
   </RoyalTitlePermitDef>
   <RoyalTitlePermitDef>
     <defName>CallMedicalAidGrand</defName>
-    <label>call aid for glitterworld medicine x30</label>
+    <label>call aid for glitterworld medicine</label>
     <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallMedicineAid</workerClass>
     <royalAid>
       <favorCost>20</favorCost>
       <pawnCount>30</pawnCount>
-      <points>30</points>
     </royalAid>
     <cooldownDays>90</cooldownDays>
   </RoyalTitlePermitDef>

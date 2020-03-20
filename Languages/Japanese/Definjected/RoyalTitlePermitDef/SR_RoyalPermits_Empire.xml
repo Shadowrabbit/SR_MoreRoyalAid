@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <CallFoodAidSmall.label>簡単な食事の支援を呼ぶ</CallFoodAidSmall.label>
+  <CallFoodAidLarge.label>手の込んだ食事の支援を呼ぶ</CallFoodAidLarge.label>
+  <CallFoodAidGrand.label>豪華な食事の支援を呼ぶ</CallFoodAidGrand.label>
+  <CallMedicalAidSmall.label>薬草の支援を呼ぶ</CallMedicalAidSmall.label>
+  <CallMedicalAidLarge.label>医薬品の支援を呼ぶ</CallMedicalAidLarge.label>
+  <CallMedicalAidGrand.label>最先端医薬品の支援を呼ぶ</CallMedicalAidGrand.label>
+</LanguageData>

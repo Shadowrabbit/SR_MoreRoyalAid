@@ -16,6 +16,7 @@ namespace SR.MRA.Permit
         {
             IncidentParms incidentParms = new IncidentParms();
             incidentParms.target = map;
+            incidentParms.spawnCenter = caller.Position;
             incidentParms.pawnCount = def.royalAid.pawnCount;//征用这个参数做支援物品数量控制
             if (Incident.IncidentDefOf.CallFoodAid.Worker.TryExecute(incidentParms))
             {

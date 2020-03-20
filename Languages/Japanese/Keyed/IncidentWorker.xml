@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <SR_CommandCallRoyalMedicalAidFreeOption>無償</SR_CommandCallRoyalMedicalAidFreeOption>
+    <SR_CommandCallRoyalMedicalAidFavorOption>残り{0}日、 コストは {1} {FACTION_royalFavorLabel}</SR_CommandCallRoyalMedicalAidFavorOption>
+    <SR_CommandCallRoyalFoodAidFreeOption>無償</SR_CommandCallRoyalFoodAidFreeOption>
+    <SR_CommandCallRoyalFoodAidFavorOption>残り{0}日、 コストは {1} {FACTION_royalFavorLabel}</SR_CommandCallRoyalFoodAidFavorOption>
+</LanguageData>

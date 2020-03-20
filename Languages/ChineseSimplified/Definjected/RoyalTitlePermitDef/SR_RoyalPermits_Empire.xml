@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <CallFoodAidSmall.label>呼叫简单食物支援</CallFoodAidSmall.label>
+  <CallFoodAidLarge.label>呼叫精致食物支援</CallFoodAidLarge.label>
+  <CallFoodAidGrand.label>呼叫奢侈食物支援</CallFoodAidGrand.label>
+  <CallMedicalAidSmall.label>呼叫草药支援</CallMedicalAidSmall.label>
+  <CallMedicalAidLarge.label>呼叫药品支援</CallMedicalAidLarge.label>
+  <CallMedicalAidGrand.label>呼叫闪耀科技药品支援</CallMedicalAidGrand.label>
+</LanguageData>

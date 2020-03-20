@@ -24,9 +24,8 @@ namespace SR.MRA.Incident
             {
                 things = ThingSetMaker.ThingSetMakerDefOf.callFoodAidGrand.root.Generate();
             }
-            IntVec3 intVec = DropCellFinder.TradeDropSpot(map);//将支援物资投放坐标定在交易处
-            DropPodUtility.DropThingsNear(intVec, map, things, 110, false, true, true, false);//投放物资
-            base.SendStandardLetter("SR_LetterLabelCallFoodAid".Translate(), "SR_TextCallFoodAid".Translate(), LetterDefOf.PositiveEvent, parms, new TargetInfo(intVec, map, false), Array.Empty<NamedArgument>());
+            DropPodUtility.DropThingsNear(parms.spawnCenter, map, things, 110, false, true, false, false);//投放物资
+            base.SendStandardLetter("SR_LetterLabelCallFoodAid".Translate(), "SR_TextCallFoodAid".Translate(), LetterDefOf.PositiveEvent, parms, new TargetInfo(parms.spawnCenter, map, false), Array.Empty<NamedArgument>());
             return true;
         }
     }
