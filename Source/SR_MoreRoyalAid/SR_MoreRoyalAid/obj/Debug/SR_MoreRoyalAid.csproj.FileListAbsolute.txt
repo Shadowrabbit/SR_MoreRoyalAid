@@ -1,0 +1,5 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\SR_MoreRoyalAid\Assemblies\SR_MoreRoyalAid.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\SR_MoreRoyalAid\Assemblies\SR_MoreRoyalAid.pdb
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\SR_MoreRoyalAid\Source\SR_MoreRoyalAid\SR_MoreRoyalAid\obj\Debug\SR_MoreRoyalAid.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\SR_MoreRoyalAid\Source\SR_MoreRoyalAid\SR_MoreRoyalAid\obj\Debug\SR_MoreRoyalAid.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\SR_MoreRoyalAid\Source\SR_MoreRoyalAid\SR_MoreRoyalAid\obj\Debug\SR_MoreRoyalAid.pdb

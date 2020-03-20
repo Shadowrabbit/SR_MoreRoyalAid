@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingSetMakerDef>
+    <defName>callFoodAidSmall</defName>
+    <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallFoodAidSmall" />
+  </ThingSetMakerDef>
+  <ThingSetMakerDef>
+    <defName>callFoodAidLarge</defName>
+    <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallFoodAidLarge" />
+  </ThingSetMakerDef>
+  <ThingSetMakerDef>
+    <defName>callFoodAidGrand</defName>
+    <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallFoodAidGrand" />
+  </ThingSetMakerDef>
+  <ThingSetMakerDef>
+    <defName>callMedicineAidSmall</defName>
+    <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallMedicineAidSmall" />
+  </ThingSetMakerDef>
+  <ThingSetMakerDef>
+    <defName>callMedicineAidLarge</defName>
+    <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallMedicineAidLarge" />
+  </ThingSetMakerDef>
+  <ThingSetMakerDef>
+    <defName>callMedicineAidGrand</defName>
+    <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallMedicineAidGrand" />
+  </ThingSetMakerDef>
+</Defs>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <SR_LetterLabelCallFoodAid>Aid(Food)</SR_LetterLabelCallFoodAid>
+    <SR_TextCallFoodAid>A lot of food have arrived in transport pods nearby.</SR_TextCallFoodAid>
+    <SR_LetterLabelCallMedicineAid>Aid(Medicine)</SR_LetterLabelCallMedicineAid>
+    <SR_TextCallMedicineAid>A lot of medicines have arrived in transport pods nearby.</SR_TextCallMedicineAid>
+</LanguageData>

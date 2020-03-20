@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <SR_CommandCallRoyalMedicalAidFreeOption>免费</SR_CommandCallRoyalMedicalAidFreeOption>
+    <SR_CommandCallRoyalMedicalAidFavorOption>剩余{0}天，费用为{1} {FACTION_royalFavorLabel}</SR_CommandCallRoyalMedicalAidFavorOption>
+    <SR_CommandCallRoyalFoodAidFreeOption>免费</SR_CommandCallRoyalFoodAidFreeOption>
+    <SR_CommandCallRoyalFoodAidFavorOption>剩余{0}天，费用为{1} {FACTION_royalFavorLabel}</SR_CommandCallRoyalFoodAidFavorOption>
+</LanguageData>

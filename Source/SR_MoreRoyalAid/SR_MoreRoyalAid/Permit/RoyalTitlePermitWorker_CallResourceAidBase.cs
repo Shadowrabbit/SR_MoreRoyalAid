@@ -1,13 +1,20 @@
 ﻿using System.Collections.Generic;
 using RimWorld;
 using Verse;
-using UnityEngine;
+
 using System;
 
-namespace SR.MRA
+namespace SR.MRA.Permit
 {
-    public abstract class RoyalTitlePermitWorker_CallResourceAid: RoyalTitlePermitWorker
+    public abstract class RoyalTitlePermitWorker_CallResourceAidBase: RoyalTitlePermitWorker
     {
+        /// <summary>
+        /// 获取皇家支援选项
+        /// </summary>
+        /// <param name="map"></param>
+        /// <param name="pawn"></param>
+        /// <param name="faction"></param>
+        /// <returns></returns>
         public override IEnumerable<FloatMenuOption> GetRoyalAidOptions(Map map, Pawn pawn, Faction faction)
         {
             if (faction.HostileTo(Faction.OfPlayer))
@@ -23,10 +30,10 @@ namespace SR.MRA
             string text = this.def.LabelCap + ": ";
             if (flag)
             {
-                text += "CommandCallRoyalResourceAidFreeOption".Translate();
+                text += GetCommandCallRoyalAidFreeOptionText();
                 action = delegate ()
                 {
-                    this.CallAid();
+                    CallAid(pawn, faction, map, true);
                 };
             }
             else
@@ -35,16 +42,30 @@ namespace SR.MRA
                 {
                     action = delegate ()
                     {
-                        this.CallAid();
+                        CallAid(pawn, faction, map, true);
                     };
                 }
-                text += "CommandCallRoyalResourceAidFavorOption".Translate(numTicks.TicksToDays().ToString("0.0"), this.def.royalAid.favorCost, faction.Named("FACTION"));
+                text += GetCommandCallRoyalAidFavorOptionText(numTicks.TicksToDays(), def.royalAid.favorCost,faction.Named("FACTION"));
+ 
             }
             yield return new FloatMenuOption(text, action, faction.def.FactionIcon, faction.Color, MenuOptionPriority.Default, null, null, 0f, null, null);
             yield break;
         }
-        public virtual void CallAid() {
-
-        }
+        /// <summary>
+        /// 呼叫支援
+        /// </summary>
+        /// <param name="map"></param>
+        /// <param name="isFree"></param>
+        protected abstract void CallAid(Pawn caller,Faction faction,Map map,bool isFree);
+        /// <summary>
+        /// 获取皇家援助文本(免费)
+        /// </summary>
+        /// <returns></returns>
+        protected abstract string GetCommandCallRoyalAidFreeOptionText();
+        /// <summary>
+        /// 获取皇家援助文本(消耗声望)
+        /// </summary>
+        /// <returns></returns>
+        protected abstract string GetCommandCallRoyalAidFavorOptionText(float ticksToDays, int favorCost, NamedArgument factionName);
     }
 }

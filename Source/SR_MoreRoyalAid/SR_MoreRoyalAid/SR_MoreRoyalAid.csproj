@@ -57,10 +57,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RoyalTitlePermitWorker_CallResourceAid.cs" />
-    <Compile Include="RoyalTitlePermitWorker_CallMedicailAid.cs" />
-    <Compile Include="RoyalTitlePermitWorker_CallFoodAid.cs" />
+    <Compile Include="Incident\IncidentDefOf.cs" />
+    <Compile Include="Incident\IncidentWorker_CallMedicineAid.cs" />
+    <Compile Include="Incident\IncidentWorker_CallFoodAid.cs" />
+    <Compile Include="Permit\RoyalTitlePermitWorker_CallResourceAidBase.cs" />
+    <Compile Include="Permit\RoyalTitlePermitWorker_CallMedicineAid.cs" />
+    <Compile Include="Permit\RoyalTitlePermitWorker_CallFoodAid.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThingSetMaker\ThingSetMaker_CallMedicineAidGrand.cs" />
+    <Compile Include="ThingSetMaker\ThingSetMaker_CallMedicineAidLarge.cs" />
+    <Compile Include="ThingSetMaker\ThingSetMaker_CallFoodAidLarge.cs" />
+    <Compile Include="ThingSetMaker\ThingSetMaker_CallFoodAidGrand.cs" />
+    <Compile Include="ThingSetMaker\ThingSetMakerDefOf.cs" />
+    <Compile Include="ThingSetMaker\ThingSetMaker_CallMedicineAidSmall.cs" />
+    <Compile Include="ThingSetMaker\ThingSetMaker_CallFoodAidSmall.cs" />
+    <Compile Include="Thing\ThingDefOf.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

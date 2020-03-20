@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/RoyalTitleDef[defName="Esquire" or defName="Knight"]/permits</xpath>
+    <value>
+      <li>CallFoodAidSmall</li>
+      <li>CallMedicalAidSmall</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/RoyalTitleDef[defName="Praetor"]/permits</xpath>
+    <value>
+      <li>CallFoodAidSmall</li>
+      <li>CallFoodAidLarge</li>
+      <li>CallMedicalAidSmall</li>
+      <li>CallMedicalAidLarge</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/RoyalTitleDef[defName="Baron" or defName="Count" or defName="Duke" or defName="Consul" or defName="Stellarch" or defName="Emperor"]/permits</xpath>
+    <value>
+      <li>CallFoodAidSmall</li>
+      <li>CallFoodAidLarge</li>
+      <li>CallFoodAidGrand</li>
+      <li>CallMedicalAidSmall</li>
+      <li>CallMedicalAidLarge</li>
+      <li>CallMedicalAidGrand</li>
+    </value>
+  </Operation>
+</Patch>
