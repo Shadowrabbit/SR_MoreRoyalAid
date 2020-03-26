@@ -6,4 +6,6 @@
   <CallMedicalAidSmall.label>呼叫草药支援</CallMedicalAidSmall.label>
   <CallMedicalAidLarge.label>呼叫药品支援</CallMedicalAidLarge.label>
   <CallMedicalAidGrand.label>呼叫闪耀科技药品支援</CallMedicalAidGrand.label>
+  <CallSiegeAidSmall.label>呼叫小型围攻支援</CallSiegeAidSmall.label>
+  <CallSiegeAidLarge.label>呼叫大型围攻支援</CallSiegeAidLarge.label>
 </LanguageData>

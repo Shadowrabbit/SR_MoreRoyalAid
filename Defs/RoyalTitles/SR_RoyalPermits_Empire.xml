@@ -61,4 +61,24 @@
     </royalAid>
     <cooldownDays>90</cooldownDays>
   </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>CallSiegeAidSmall</defName>
+    <label>call small aid for siege</label>
+    <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallSiegeAid</workerClass>
+    <royalAid>
+      <favorCost>20</favorCost>
+      <pawnCount>10</pawnCount>
+    </royalAid>
+    <cooldownDays>180</cooldownDays>
+  </RoyalTitlePermitDef>
+  <RoyalTitlePermitDef>
+    <defName>CallSiegeAidLarge</defName>
+    <label>call large aid for siege</label>
+    <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallSiegeAid</workerClass>
+    <royalAid>
+      <favorCost>20</favorCost>
+      <pawnCount>20</pawnCount>
+    </royalAid>
+    <cooldownDays>180</cooldownDays>
+  </RoyalTitlePermitDef>
 </Defs>

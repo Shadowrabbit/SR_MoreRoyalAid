@@ -24,4 +24,16 @@
     <baseChance>0</baseChance>
     <pointsScaleable>true</pointsScaleable>
   </IncidentDef>
+  <!-- 呼叫围攻支援 -->
+  <IncidentDef>
+    <defName>CallSiegeAid</defName>
+    <label>friendly Siege aid</label>
+    <category>AllyAssistance</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>SR.MRA.Incident.IncidentWorker_CallSiegeAid</workerClass>
+    <baseChance>0</baseChance>
+    <pointsScaleable>true</pointsScaleable>
+  </IncidentDef>
 </Defs>

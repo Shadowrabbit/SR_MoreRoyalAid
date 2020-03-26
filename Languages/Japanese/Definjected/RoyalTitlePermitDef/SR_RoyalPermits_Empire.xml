@@ -6,4 +6,6 @@
   <CallMedicalAidSmall.label>薬草の支援を呼ぶ</CallMedicalAidSmall.label>
   <CallMedicalAidLarge.label>医薬品の支援を呼ぶ</CallMedicalAidLarge.label>
   <CallMedicalAidGrand.label>最先端医薬品の支援を呼ぶ</CallMedicalAidGrand.label>
+  <CallSiegeAidSmall.label>小型包囲の支援を呼ぶ</CallSiegeAidSmall.label>
+  <CallSiegeAidLarge.label>大型包囲の支援を呼ぶ</CallSiegeAidLarge.label>
 </LanguageData>

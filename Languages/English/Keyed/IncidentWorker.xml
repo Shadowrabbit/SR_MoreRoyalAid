@@ -4,4 +4,6 @@
     <SR_CommandCallRoyalMedicalAidFavorOption>{0} days left, costs {1} {FACTION_royalFavorLabel}</SR_CommandCallRoyalMedicalAidFavorOption>
     <SR_CommandCallRoyalFoodAidFreeOption>Free</SR_CommandCallRoyalFoodAidFreeOption>
     <SR_CommandCallRoyalFoodAidFavorOption>{0} days left, costs {1} {FACTION_royalFavorLabel}</SR_CommandCallRoyalFoodAidFavorOption>
+    <SR_CommandCallRoyalSiegeAidFreeOption>Free</SR_CommandCallRoyalSiegeAidFreeOption>
+    <SR_CommandCallRoyalSiegeAidFavorOption>{0} days left, costs {1} {FACTION_royalFavorLabel}</SR_CommandCallRoyalSiegeAidFavorOption>
 </LanguageData>

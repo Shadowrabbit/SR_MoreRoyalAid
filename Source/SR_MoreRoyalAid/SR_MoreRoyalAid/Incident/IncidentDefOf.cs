@@ -8,5 +8,6 @@ namespace SR.MRA.Incident
     {
         public static IncidentDef CallMedicineAid;//药品支援事件
         public static IncidentDef CallFoodAid;//食物支援事件
+        public static IncidentDef CallSiegeAid;//围攻支援事件
     }
 }

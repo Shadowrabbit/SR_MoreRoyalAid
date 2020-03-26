@@ -5,11 +5,13 @@ namespace SR.MRA.ThingSetMaker
     [DefOf]
     public static class ThingSetMakerDefOf
     {
-        public static ThingSetMakerDef callFoodAidSmall;
-        public static ThingSetMakerDef callFoodAidLarge;
-        public static ThingSetMakerDef callFoodAidGrand;
-        public static ThingSetMakerDef callMedicineAidSmall;
-        public static ThingSetMakerDef callMedicineAidLarge;
-        public static ThingSetMakerDef callMedicineAidGrand;
+        public static ThingSetMakerDef CallFoodAidSmall;
+        public static ThingSetMakerDef CallFoodAidLarge;
+        public static ThingSetMakerDef CallFoodAidGrand;
+        public static ThingSetMakerDef CallMedicineAidSmall;
+        public static ThingSetMakerDef CallMedicineAidLarge;
+        public static ThingSetMakerDef CallMedicineAidGrand;
+        public static ThingSetMakerDef CallSiegeAidSmall;
+        public static ThingSetMakerDef CallSiegeAidLarge;
     }
 }

@@ -1,27 +1,35 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingSetMakerDef>
-    <defName>callFoodAidSmall</defName>
+    <defName>CallFoodAidSmall</defName>
     <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallFoodAidSmall" />
   </ThingSetMakerDef>
   <ThingSetMakerDef>
-    <defName>callFoodAidLarge</defName>
+    <defName>CallFoodAidLarge</defName>
     <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallFoodAidLarge" />
   </ThingSetMakerDef>
   <ThingSetMakerDef>
-    <defName>callFoodAidGrand</defName>
+    <defName>CallFoodAidGrand</defName>
     <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallFoodAidGrand" />
   </ThingSetMakerDef>
   <ThingSetMakerDef>
-    <defName>callMedicineAidSmall</defName>
+    <defName>CallMedicineAidSmall</defName>
     <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallMedicineAidSmall" />
   </ThingSetMakerDef>
   <ThingSetMakerDef>
-    <defName>callMedicineAidLarge</defName>
+    <defName>CallMedicineAidLarge</defName>
     <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallMedicineAidLarge" />
   </ThingSetMakerDef>
   <ThingSetMakerDef>
-    <defName>callMedicineAidGrand</defName>
+    <defName>CallMedicineAidGrand</defName>
     <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallMedicineAidGrand" />
+  </ThingSetMakerDef>
+  <ThingSetMakerDef>
+    <defName>CallSiegeAidSmall</defName>
+    <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallSiegeAidSmall" />
+  </ThingSetMakerDef>
+  <ThingSetMakerDef>
+    <defName>CallSiegeAidLarge</defName>
+    <root Class="SR.MRA.ThingSetMaker.ThingSetMaker_CallSiegeAidLarge" />
   </ThingSetMakerDef>
 </Defs>
