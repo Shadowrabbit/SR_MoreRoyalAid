@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <CallFoodAidSmall.label>呼叫简单食物支援</CallFoodAidSmall.label>
-  <CallFoodAidLarge.label>呼叫精致食物支援</CallFoodAidLarge.label>
-  <CallFoodAidGrand.label>呼叫奢侈食物支援</CallFoodAidGrand.label>
-  <CallMedicalAidSmall.label>呼叫草药支援</CallMedicalAidSmall.label>
-  <CallMedicalAidLarge.label>呼叫药品支援</CallMedicalAidLarge.label>
-  <CallMedicalAidGrand.label>呼叫闪耀科技药品支援</CallMedicalAidGrand.label>
-  <CallSiegeAidSmall.label>呼叫小型围攻支援</CallSiegeAidSmall.label>
-  <CallSiegeAidLarge.label>呼叫大型围攻支援</CallSiegeAidLarge.label>
+    <CallSiegeAidSmall.label>空投-小型围攻支援</CallSiegeAidSmall.label>
+    <CallSiegeAidLarge.label>空投-大型围攻支援</CallSiegeAidLarge.label>
+    <CallSiegeAidSmall.description>呼叫一份包含15x包装生存食品, 150x钢铁, 150x布, 10x燃烧弹, 6x高爆弹, 4x零件的空投。
+    </CallSiegeAidSmall.description>
+    <CallSiegeAidLarge.description>呼叫一份包含30x包装生存食品, 300x钢铁, 200x布, 10x燃烧弹, 12x高爆弹, 1x反粒子弹头, 8x零件的空投。
+    </CallSiegeAidLarge.description>
+    <AdvancedFoodDrop.label>空投-高级食物</AdvancedFoodDrop.label>
+    <AdvancedGlitterMedDrop.label>空投-高级药品</AdvancedGlitterMedDrop.label>
+    <AdvancedFoodDrop.description>呼叫一份包含30x奢侈的食物的空投。</AdvancedFoodDrop.description>
+    <AdvancedGlitterMedDrop.description>呼叫一份包含20x闪耀科技药品的空投。</AdvancedGlitterMedDrop.description>
 </LanguageData>

@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-<packageId>SR.MoreRoyalAid</packageId>
-	<name>More Royal Rid</name>
-	<author>Shadowrabbit</author>
-	<supportedVersions>
-    <li>1.1</li>
-  </supportedVersions>
-	<loadAfter>
-		<li>Ludeon.RimWorld</li>
-		<li>Ludeon.RimWorld.Royalty</li>
-	</loadAfter>
-	<description>More Royal Rid
-ID:2028481893
-Author:Shadowrabbit
-Support Version: 1.1
-Support Languages:简体中文(Chinese),English,日本語(Japanese).
-Github:https://github.com/Shadowrabbit/SR_MoreRoyalAid
-Describtion
-It adds more aids for royal.Favor will be more useful.You can use favor to call aid for medicine or food in expedition.
+    <packageId>SR.MoreRoyalAid</packageId>
+    <name>More Royal Rid</name>
+    <author>Shadowrabbit</author>
+    <supportedVersions>
+        <li>1.2</li>
+    </supportedVersions>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+    </loadAfter>
+    <description>
+        More Royal Rid
+        ID:2028481893
+        Author:Shadowrabbit
+        Support Version: 1.2
+        Support Languages:简体中文(Chinese),English,日本語(Japanese).
+        Github:https://github.com/Shadowrabbit/SR_MoreRoyalAid
+        Describtion:
+        It adds more aids for royal.Favor will be more useful.
 
-添加了更多种类的皇家支援。声望会变得更有用。你可以在远征中使用声望呼叫药品或食品支援。
+        添加了更多种类的皇家支援。声望会变得更有用。
 
-ロイヤル支援の追加。王の寵愛がもっと役立つます。遠征で医薬品や食事の支援を呼べます。
-	</description>
+        ロイヤル支援の追加。王の寵愛がもっと役立つます。
+    </description>
 </ModMetaData>

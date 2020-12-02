@@ -1,84 +1,85 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- ============================= Permits from royal titles ============================= -->
-  <RoyalTitlePermitDef>
-    <defName>CallFoodAidSmall</defName>
-    <label>call aid for simple meal</label>
-    <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallFoodAid</workerClass>
-    <royalAid>
-      <favorCost>2</favorCost>
-      <pawnCount>10</pawnCount>
-    </royalAid>
-    <cooldownDays>20</cooldownDays>
-  </RoyalTitlePermitDef>
-  <RoyalTitlePermitDef>
-    <defName>CallFoodAidLarge</defName>
-    <label>call aid for fine meal</label>
-    <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallFoodAid</workerClass>
-    <royalAid>
-      <favorCost>5</favorCost>
-      <pawnCount>20</pawnCount>
-    </royalAid>
-    <cooldownDays>40</cooldownDays>
-  </RoyalTitlePermitDef>
-  <RoyalTitlePermitDef>
-    <defName>CallFoodAidGrand</defName>
-    <label>call aid for lavish meal</label>
-    <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallFoodAid</workerClass>
-    <royalAid>
-      <favorCost>10</favorCost>
-      <pawnCount>30</pawnCount>
-    </royalAid>
-    <cooldownDays>60</cooldownDays>
-  </RoyalTitlePermitDef>
-  <RoyalTitlePermitDef>
-    <defName>CallMedicalAidSmall</defName>
-    <label>call aid for herbal medicine</label>
-    <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallMedicineAid</workerClass>
-    <royalAid>
-      <favorCost>5</favorCost>
-      <pawnCount>10</pawnCount>
-    </royalAid>
-    <cooldownDays>30</cooldownDays>
-  </RoyalTitlePermitDef>
-  <RoyalTitlePermitDef>
-    <defName>CallMedicalAidLarge</defName>
-    <label>call aid for medicine</label>
-    <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallMedicineAid</workerClass>
-    <royalAid>
-      <favorCost>10</favorCost>
-      <pawnCount>20</pawnCount>
-    </royalAid>
-    <cooldownDays>60</cooldownDays>
-  </RoyalTitlePermitDef>
-  <RoyalTitlePermitDef>
-    <defName>CallMedicalAidGrand</defName>
-    <label>call aid for glitterworld medicine</label>
-    <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallMedicineAid</workerClass>
-    <royalAid>
-      <favorCost>20</favorCost>
-      <pawnCount>30</pawnCount>
-    </royalAid>
-    <cooldownDays>90</cooldownDays>
-  </RoyalTitlePermitDef>
-  <RoyalTitlePermitDef>
-    <defName>CallSiegeAidSmall</defName>
-    <label>call small aid for siege</label>
-    <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallSiegeAid</workerClass>
-    <royalAid>
-      <favorCost>20</favorCost>
-      <pawnCount>10</pawnCount>
-    </royalAid>
-    <cooldownDays>180</cooldownDays>
-  </RoyalTitlePermitDef>
-  <RoyalTitlePermitDef>
-    <defName>CallSiegeAidLarge</defName>
-    <label>call large aid for siege</label>
-    <workerClass>SR.MRA.Permit.RoyalTitlePermitWorker_CallSiegeAid</workerClass>
-    <royalAid>
-      <favorCost>20</favorCost>
-      <pawnCount>20</pawnCount>
-    </royalAid>
-    <cooldownDays>180</cooldownDays>
-  </RoyalTitlePermitDef>
+    <!--高级食物空投-->
+    <RoyalTitlePermitDef ParentName="DropResourcesBase">
+        <defName>AdvancedFoodDrop</defName>
+        <label>advanced food drop</label>
+        <description>Call for a drop of 30 lavish meals.</description>
+        <minTitle>Baron</minTitle>
+        <uiPosition>(1,1)</uiPosition>
+        <permitPointCost>1</permitPointCost>
+        <prerequisite>FoodDrop</prerequisite>
+        <royalAid>
+            <itemsToDrop>
+                <MealLavish>30</MealLavish>
+            </itemsToDrop>
+            <favorCost>4</favorCost>
+        </royalAid>
+    </RoyalTitlePermitDef>
+    <!--高级药品支援-->
+    <RoyalTitlePermitDef ParentName="DropResourcesBase">
+        <defName>AdvancedGlitterMedDrop</defName>
+        <label>advanced glitter med drop</label>
+        <description>Call for a drop of 20 glitterworld medicine.</description>
+        <minTitle>Count</minTitle>
+        <uiPosition>(1,8)</uiPosition>
+        <permitPointCost>1</permitPointCost>
+        <prerequisite>GlitterMedDrop</prerequisite>
+        <royalAid>
+            <itemsToDrop>
+                <MedicineUltratech>20</MedicineUltratech>
+            </itemsToDrop>
+            <favorCost>10</favorCost>
+        </royalAid>
+    </RoyalTitlePermitDef>
+    <!--小型围攻空投-->
+    <RoyalTitlePermitDef ParentName="DropResourcesBase">
+        <defName>CallSiegeAidSmall</defName>
+        <label>call for small siege support</label>
+        <description>Call for a drop of 15 packaged survival meals, 150 steel, 150 cloth,10 incendiary shells,6
+            high-explosive shells and 4 components.
+        </description>
+        <minTitle>Knight</minTitle>
+        <faction>Empire</faction>
+        <permitPointCost>1</permitPointCost>
+        <uiPosition>(0,9)</uiPosition>
+        <royalAid>
+            <itemsToDrop>
+                <MealSurvivalPack>15</MealSurvivalPack>
+                <Steel>150</Steel>
+                <Cloth>150</Cloth>
+                <Shell_Incendiary>10</Shell_Incendiary>
+                <Shell_HighExplosive>6</Shell_HighExplosive>
+                <ComponentIndustrial>4</ComponentIndustrial>
+            </itemsToDrop>
+            <favorCost>15</favorCost>
+        </royalAid>
+        <cooldownDays>180</cooldownDays>
+    </RoyalTitlePermitDef>
+    <!--大型围攻空投-->
+    <RoyalTitlePermitDef ParentName="DropResourcesBase">
+        <defName>CallSiegeAidLarge</defName>
+        <label>call for large siege support</label>
+        <description>Call for a drop of 30 packaged survival meals, 300 steel, 200 cloth,10 incendiary shells,12
+            high-explosive shells,a antigrain warhead and 8 components.
+        </description>
+        <minTitle>Baron</minTitle>
+        <faction>Empire</faction>
+        <permitPointCost>1</permitPointCost>
+        <prerequisite>CallSiegeAidSmall</prerequisite>
+        <uiPosition>(1,9)</uiPosition>
+        <royalAid>
+            <itemsToDrop>
+                <MealSurvivalPack>30</MealSurvivalPack>
+                <Steel>300</Steel>
+                <Cloth>200</Cloth>
+                <Shell_Incendiary>10</Shell_Incendiary>
+                <Shell_HighExplosive>12</Shell_HighExplosive>
+                <Shell_AntigrainWarhead>1</Shell_AntigrainWarhead>
+                <ComponentIndustrial>8</ComponentIndustrial>
+            </itemsToDrop>
+            <favorCost>20</favorCost>
+        </royalAid>
+        <cooldownDays>180</cooldownDays>
+    </RoyalTitlePermitDef>
 </Defs>

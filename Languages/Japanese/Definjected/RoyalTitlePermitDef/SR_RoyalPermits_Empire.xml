@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <CallFoodAidSmall.label>簡単な食事の支援を呼ぶ</CallFoodAidSmall.label>
-  <CallFoodAidLarge.label>手の込んだ食事の支援を呼ぶ</CallFoodAidLarge.label>
-  <CallFoodAidGrand.label>豪華な食事の支援を呼ぶ</CallFoodAidGrand.label>
-  <CallMedicalAidSmall.label>薬草の支援を呼ぶ</CallMedicalAidSmall.label>
-  <CallMedicalAidLarge.label>医薬品の支援を呼ぶ</CallMedicalAidLarge.label>
-  <CallMedicalAidGrand.label>最先端医薬品の支援を呼ぶ</CallMedicalAidGrand.label>
-  <CallSiegeAidSmall.label>小型包囲の支援を呼ぶ</CallSiegeAidSmall.label>
-  <CallSiegeAidLarge.label>大型包囲の支援を呼ぶ</CallSiegeAidLarge.label>
+    <CallSiegeAidSmall.label>小型包囲の支援を呼ぶ</CallSiegeAidSmall.label>
+    <CallSiegeAidLarge.label>大型包囲の支援を呼ぶ</CallSiegeAidLarge.label>
+    <CallSiegeAidSmall.description>15非常用食品, 150スチール, 150布, 10焼夷弾, 6迫撃砲弾, 4コンポーネントを要求します。
+    </CallSiegeAidSmall.description>
+    <CallSiegeAidLarge.description>30非常用食品, 300スチール, 200布, 10焼夷弾, 12迫撃砲弾, 1反物質弾, 8コンポーネントを要求します。
+    </CallSiegeAidLarge.description>
+    <AdvancedFoodDrop.label>高級食糧ドロップ</AdvancedFoodDrop.label>
+    <AdvancedGlitterMedDrop.label>高級最先端医療薬ドロップ</AdvancedGlitterMedDrop.label>
+    <AdvancedFoodDrop.description>豪華な食事を30個要求します。</AdvancedFoodDrop.description>
+    <AdvancedGlitterMedDrop.description>最先端医療薬を20つを要求します。</AdvancedGlitterMedDrop.description>
 </LanguageData>

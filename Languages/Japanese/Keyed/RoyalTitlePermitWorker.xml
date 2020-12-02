@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-    <SR_LetterLabelCallFoodAid>支援(食事)</SR_LetterLabelCallFoodAid>
-    <SR_TextCallFoodAid>大量の食事、すぐ近くに輸送ポッドで到着しました</SR_TextCallFoodAid>
-    <SR_LetterLabelCallMedicineAid>支援(医薬品)</SR_LetterLabelCallMedicineAid>
-    <SR_TextCallMedicineAid>大量の医薬品、すぐ近くに輸送ポッドで到着しました</SR_TextCallMedicineAid>
-    <SR_LetterLabelCallSiegeAid>支援(包囲)</SR_LetterLabelCallSiegeAid>
-    <SR_TextCallSiegeAid>今回の作戦を楽しんでください、長官。</SR_TextCallSiegeAid>
-</LanguageData>
